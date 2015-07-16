@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:width="150dp"
+    android:height="150dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100"
+
+    app:vc_viewportWidth="100"
+    app:vc_viewportHeight="100">
+
+    <group
+        android:name="circleGroup"
+        android:rotation="0"
+        android:pivotX="50"
+        android:pivotY="50">
+
+        <!--
+        Circle path data generated with:
+        CX: 50.5, CY: 50.5, R: 28
+        http://complexdan.com/svg-circleellipse-to-path-converter/
+        -->
+        <path
+            android:name="circlePath"
+            android:fillColor="@android:color/white"
+            android:fillAlpha="1.0"
+            android:pathData="@string/path_circle"
+
+            app:vc_fillColor="@android:color/white"
+            app:vc_fillAlpha="1.0"
+            app:vc_pathData="@string/path_circle"/>
+
+    </group>
+
+</vector>
